@@ -514,3 +514,16 @@ footer{
         transform:rotate(360deg);
     }
 }
+.project-card{
+
+    transition:.4s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
