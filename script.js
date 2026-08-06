@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     type();
 
     const cards = document.querySelectorAll(
-        ".skill-card, .project-card, .education-card"
+        ".skill-card, .project-card"
     );
 
     const observer = new IntersectionObserver((entries) => {
