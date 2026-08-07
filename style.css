@@ -129,6 +129,22 @@ nav a:hover {
 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
+.profile-pic {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.08) rotate(2deg);
+
+    border-color: #60a5fa;
+
+    box-shadow:
+        0 15px 35px rgba(59, 130, 246, 0.35),
+        0 5px 20px rgba(0, 0, 0, 0.4);
+}
 
 .hero h1 {
     font-size: 42px;
@@ -328,6 +344,24 @@ section p {
     border-radius: 15px;
 
     border: 1px solid #334155;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.18);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-8px);
+
+    border-color: #3b82f6;
+
+    box-shadow:
+        0 15px 35px rgba(59, 130, 246, 0.25),
+        0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 .stat-box h2 {
@@ -350,13 +384,9 @@ section p {
 
 .project-card {
     background: #1e293b;
-
     padding: 35px;
-
     margin-bottom: 25px;
-
     border-radius: 18px;
-
     border: 1px solid #334155;
 
     text-align: center;
@@ -364,13 +394,25 @@ section p {
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.18);
 
-    transition: 0.3s;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 
     border-color: #3b82f6;
+
+    box-shadow:
+        0 15px 35px rgba(59, 130, 246, 0.25),
+        0 5px 15px rgba(0, 0, 0, 0.35);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
 }
 
 .project-card h3 {
